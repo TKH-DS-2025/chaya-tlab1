@@ -1,10 +1,13 @@
 def filter_nondigits(data: list) -> list:
+  
     """
-    INSERT DOCSTRING HERE
+    Filter out non-digit characters from the list of strings.
+
+    Args:
+        data (list[str]): list of strings to be filtered
+    Returns:
+        list[int]: a list of integers containing only the digit characters from the input list
     """
-   
-    
-    
     new_data = []
     for x in data:
        print("orginial line, x: ", x)
